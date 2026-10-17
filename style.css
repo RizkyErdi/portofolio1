@@ -76,16 +76,6 @@ body {
     z-index: 5;
 }
 
-/* Glassmorphism Panel style */
-.glass-panel {
-    background: var(--panel-bg);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid var(--border-glow);
-    border-radius: 16px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
-}
-
 /* Navbar Dynamic Blur */
 .navbar {
     position: fixed;
@@ -783,6 +773,24 @@ body {
     position: absolute;
     left: 0;
     top: 2px;
+}
+
+/* NEW: PROJECTS PANEL STYLING */
+.panel-projects {
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    background: rgba(14, 165, 233, 0.05);
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-left: 3px solid var(--primary-color);
+    margin-bottom: 15px;
+    font-family: 'Fira Code', monospace;
+    line-height: 1.5;
+}
+.panel-projects strong {
+    color: var(--text-primary);
+    display: inline-block;
+    margin-bottom: 4px;
 }
 
 .panel-chips {
